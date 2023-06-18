@@ -1,4 +1,6 @@
-package day1;
+//Assume, the parent directory named BJUG-SESSION has the `sumOfTwo.class` file and day1 folder has `sumOfTwo.java` file. You need to execute the command `java sumOfTwo` from the day1 directory (child directory) 
+// and the JVM should correctly load the class without any errors, and run it. 
+// we can use classpath to acheive if the class file out of directory (java -cp .. sumOfTwo)
 
 import java.util.Scanner;
 

@@ -1,7 +1,3 @@
-package day2;
-
-import java.util.Scanner;
-
 public class fizzBuzz {
     public static void main(String[] args) {
         for(int num = 1; num <= 50; num++) {

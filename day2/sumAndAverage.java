@@ -1,3 +1,5 @@
+package day2;
+
 import java.util.Scanner;
 
 public class sumAndAverage {
@@ -11,7 +13,7 @@ public class sumAndAverage {
         int num3 = scanner.nextInt();
         int sum = num1 + num2 + num3;
         System.out.println("The sum of three numbers is: " + sum);
-        int average = sum/3;
+        float average = (float) sum/3;
         System.out.println("The average of three numbers is: " + average);
     }
 }
